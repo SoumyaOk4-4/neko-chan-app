@@ -1,0 +1,25 @@
+.neko-fact {
+    background: rgb(255, 186, 186);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.neko-btn {
+    color: rgb(147, 36, 36);
+    background: #ff7676;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+marquee{
+    color: rgb(150, 16, 38);
+}
