@@ -23,7 +23,7 @@ function App() {
       </div>
       <br /><br /><br />
       <footer>
-      <marquee>It's a prototype so wait a bit cat lovers...</marquee>
+      <b>It's a prototype so wait a bit cat lovers...</b>
       <br />
       <b>&copy; 2023 Neko-Chan</b>
       </footer>
