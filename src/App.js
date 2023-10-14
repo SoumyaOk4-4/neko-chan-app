@@ -23,9 +23,9 @@ function App() {
       </div>
       <br /><br /><br />
       <footer>
-      <marquee>It's a prototype so wait a bit cat lovers...</marquee>
+      It's a prototype so wait a bit cat lovers. The app is under development.
       <br />
-      <b>&copy; 2023 Neko-Chan</b>
+      <b>&copy; 2023 Neko Senpai</b>
       </footer>
     </div>
   );
