@@ -4,11 +4,6 @@
     border-radius: 10px;
 }
 
-.neko-btn {
-    color: rgb(147, 36, 36);
-    background: #ff7676;
-}
-
 .App {
     display: flex;
     flex-direction: column;

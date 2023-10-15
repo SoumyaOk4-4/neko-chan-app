@@ -26,6 +26,7 @@ function App() {
       It's a prototype so wait a bit cat lovers. The app is under development.
       <br />
       <b>&copy; 2023 Neko Senpai</b>
+      <img className='neko-neko-btn' src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaD0u55oey9A_z0JamGWgoIUauS9jJiosr1kxDak3KJSXZGyl1otzRfczKg5P4OhYxUppJZ7b7jv_sv6YfVV4W_xz4Jk=s2560" alt='Neko Neko'/>
       </footer>
     </div>
   );
