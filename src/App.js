@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Axios from 'axios';
 
 // UI & LOGOS
-import KawaiiNekoFactBtn from './assets/pictures/kawaii_nekofact_btn-removebg-preview.png'
+import KawaiiNekoFactBtn from './assets/pictures/kawaii_nekofact_btn.png';
 
 function App() {
   const [nekoFact, setNekoFact] = useState("");
