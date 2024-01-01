@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import Axios from 'axios';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // UI & LOGOS
@@ -12,28 +12,27 @@ import NekoLogo from './assets/pictures/logo.png';
 
 function App() {
   const [nekoFact, setNekoFact] = useState("");
-  const [_20, set_20] = useState(0);
+  const [_10, set_10] = useState(0);
 
   // NEKO-FACT FUNC
   const fetchNekoFact = () => {
     Axios.get("https://catfact.ninja/fact").then((res) => {
       setNekoFact(res.data.fact);
-      congrats_20();
+      congrats_10();
     });
   }
 
-  const congrats_20 = () => {
-    set_20(prevCount => {
-      const newCount = prevCount + 1;
-      if (newCount === 21) {
-        toast.info(`Congratulations! You've read ${_20} Neko(Cat) facts!`);
+  const congrats_10 = () => {
+    set_10(_10 + 1);
+      if (_10 === 9) {
+        toast.success(`Congratulations! You've read ${_10+1} Neko(Cat) facts!`);
       }
-      return newCount;
-    });
-  }
+    }
+
 
   return (
     <div className="App">
+      <ToastContainer />  {/* Success after 10 click */}
       <div className="neko-fact-fullpage">
         <div className='neko-fact-outputbox'>
           <h1>{nekoFact}</h1>
