@@ -17,6 +17,7 @@
     border-bottom-right-radius: 90px;
     background: white;
     border: solid brown 2px;
+    box-shadow: 4px 6px 6px rgb(244, 189, 189);
 }
 
 .App {
