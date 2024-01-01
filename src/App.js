@@ -20,15 +20,17 @@ function App() {
 
   return (
     <div className="App">
-      <div className="neko-fact">
-        <h1>{nekoFact}</h1>
-        <center>
+      <div className="neko-fact-fullpage">
+        <div className='neko-fact-outputbox'>
+          <h1>{nekoFact}</h1>
+        </div>
+        <div>
           <button onClick={fetchNekoFact} className='nekofact-btn'>
-            <img src={KawaiiNekoFactBtn} alt="lol" />
+            <img src={KawaiiNekoFactBtn} alt="Click Here!" />
           </button>
-        </center>
+        </div>
       </div>
-      <br /><br /><br />
+      <br /><br />
       <footer>
         It's a prototype so wait a bit cat lovers. The app is under development.
         <br />
