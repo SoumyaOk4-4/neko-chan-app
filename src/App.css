@@ -4,6 +4,12 @@
     border-radius: 10px;
 }
 
+.nekofact-btn{
+    border-top-left-radius: 82px;
+    border-bottom-right-radius: 90px;
+    background: white;
+}
+
 .App {
     display: flex;
     flex-direction: column;
