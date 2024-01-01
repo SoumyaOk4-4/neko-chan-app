@@ -1,0 +1,2 @@
+- [] **toast** after every 10+
+- [] **ting** sound
