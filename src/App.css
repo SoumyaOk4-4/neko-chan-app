@@ -5,9 +5,10 @@
 }
 
 .nekofact-btn{
-    border-top-left-radius: 82px;
+    border-top-left-radius: 80px;
     border-bottom-right-radius: 90px;
     background: white;
+    border: solid brown 2px;
 }
 
 .App {
