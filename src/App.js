@@ -29,15 +29,15 @@ function App() {
 
     if (_10 > 0 && (_10 % 10) === 0) {
       ting();
-      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 2000, });
+      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 3000, });
     }
     else if (_10 === 29) {
       nya_nya();
-      toast.info("You're a Neko Geek now!! 😻", { autoClose: 1500, });
+      toast.info("You're a Neko Geek now!! 😻", { autoClose: 2000, });
     }
     else if (_10 === 0) {
       ting();
-      toast.info("1st Neko Fact! 😺", { autoClose: 1500, });
+      toast.info("1st Neko Fact! 😺", { autoClose: 2000, });
     }
   }
 
