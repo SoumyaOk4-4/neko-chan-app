@@ -24,15 +24,26 @@ function App() {
 
   const congrats_10 = () => {
     set_10(_10 + 1);
-      if (_10 === 9) {
-        toast.success(`Congratulations! You've read ${_10+1} Neko(Cat) facts!`);
-      }
-    }
 
+    if (_10 > 0 && (_10 % 10) === 0) {
+      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 1500, });
+    }
+    else if (_10 === 49) {
+      toast.info("You're a Neko Geek now!! 😻", { autoClose: 1000, });
+    }
+    else if (_10 === 0) {
+      toast.info("1st Neko Fact! 😺", { autoClose: 1000, });
+    }
+  }
 
   return (
     <div className="App">
-      <ToastContainer />  {/* Success after 10 click */}
+      <ToastContainer
+        hideProgressBar={true}
+        newestOnTop={true}
+        closeOnClick
+      />
+
       <div className="neko-fact-fullpage">
         <div className='neko-fact-outputbox'>
           <h1>{nekoFact}</h1>
