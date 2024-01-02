@@ -1,4 +1,4 @@
 - [x] **toast** after every 10+.
 - [x] **ting** sound.
-- [] **fix ui** overlapping.
+- [x] **fix ui** overlapping.
 - [] ***feedback*** hub.
