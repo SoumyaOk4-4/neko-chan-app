@@ -64,7 +64,7 @@ function App() {
         </div>
         <div>
           <button onClick={fetchNekoFact} className='nekofact-btn'>
-            <img src={KawaiiNekoFactBtn} alt="Click Here!" />
+            <img src={KawaiiNekoFactBtn} alt="Click Here!" id='neko-btn-img'/>
           </button>
         </div>
       </div>

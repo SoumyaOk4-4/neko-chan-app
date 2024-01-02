@@ -13,20 +13,25 @@
     overflow-x:hidden;
     border: 3px solid rgb(182, 55, 55);
     border-radius: 7px;
-    height:42vh;
+    height:50vh;
 }
 
 .nekofact-btn{
     margin: 30px;
-    border-top-left-radius: 78px;
-    border-bottom-right-radius: 90px;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 75px;
     background: white;
     border: solid brown 2px;
-    box-shadow: 4px 6px 6px rgb(244, 189, 189);
+    box-shadow: 4px 6px 6px rgb(246, 171, 171);
 }
 
 .nekofact-btn:active{
     transform: translateY(2px);
+}
+
+#neko-btn-img{
+    height: 100px;
+    width: auto;
 }
 
 .App {
