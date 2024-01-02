@@ -36,7 +36,7 @@ function App() {
       toast.info("You're a Neko Geek now!! 😻", { autoClose: 1500, });
     }
     else if (_10 === 0) {
-        ting();
+      ting();
       toast.info("1st Neko Fact! 😺", { autoClose: 1500, });
     }
   }
@@ -45,7 +45,7 @@ function App() {
     const tingAudio = new Audio(TingAudio);
     tingAudio.play();
   }
-  const nya_nya = ()=>{
+  const nya_nya = () => {
     const nyaAudio = new Audio(NyaAudio);
     nyaAudio.play();
   }
@@ -64,7 +64,7 @@ function App() {
         </div>
         <div>
           <button onClick={fetchNekoFact} className='nekofact-btn'>
-            <img src={KawaiiNekoFactBtn} alt="Click Here!" id='neko-btn-img'/>
+            <img src={KawaiiNekoFactBtn} alt="Click Here!" id='neko-btn-img' />
           </button>
         </div>
       </div>
@@ -76,7 +76,9 @@ function App() {
         <br />
         <img src={NekoLogo} alt='Neko Neko' />
         <br />
-        <i>Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻</i>
+        <i>
+          Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
+        </i>
       </footer>
     </div>
   );
