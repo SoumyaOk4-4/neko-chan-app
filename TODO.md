@@ -4,3 +4,4 @@
 - [x] **ting** sound.
 - [x] **fix ui** overlapping.
 - [x] ***feedback*** hub.
+- [x] **scrollbar** ui.

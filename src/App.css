@@ -5,18 +5,18 @@
     text-align: center;
 }
 
-.neko-fact-outputbox{
-    background: rgb(255, 65, 65); 
+.neko-fact-outputbox {
+    background: rgb(255, 65, 65);
     box-shadow: 4px 6px 6px rgb(211, 93, 93);
     padding: 5px;
-    overflow-y:auto;
-    overflow-x:hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     border: 3px solid rgb(182, 55, 55);
     border-radius: 7px;
-    height:50vh;
+    height: 50vh;
 }
 
-.nekofact-btn{
+.nekofact-btn {
     margin: 30px;
     border-top-left-radius: 65px;
     border-bottom-right-radius: 75px;
@@ -25,11 +25,11 @@
     box-shadow: 4px 6px 6px rgb(246, 171, 171);
 }
 
-.nekofact-btn:active{
+.nekofact-btn:active {
     transform: translateY(2px);
 }
 
-#neko-btn-img{
+#neko-btn-img {
     height: 100px;
     width: auto;
 }
@@ -43,8 +43,28 @@
 }
 
 footer {
-    position:relative;
+    position: relative;
     bottom: 10px;
     width: 95%;
     text-align: center;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(158, 90, 90);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(243, 76, 76);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ca2b2b;
+}
+/* scrollbar */
