@@ -29,15 +29,15 @@ function App() {
 
     if (_10 > 0 && (_10 % 10) === 0) {
       ting();
-      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 1500, });
+      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 2000, });
     }
     else if (_10 === 29) {
       nya_nya();
-      toast.info("You're a Neko Geek now!! 😻", { autoClose: 1000, });
+      toast.info("You're a Neko Geek now!! 😻", { autoClose: 1500, });
     }
     else if (_10 === 0) {
         ting();
-      toast.info("1st Neko Fact! 😺", { autoClose: 1000, });
+      toast.info("1st Neko Fact! 😺", { autoClose: 1500, });
     }
   }
 
@@ -74,7 +74,9 @@ function App() {
         <br />
         <b>© 2023-2024 Neko Senpai</b>
         <br />
-        <img className='neko-neko-btn' src={NekoLogo} alt='Neko Neko' />
+        <img src={NekoLogo} alt='Neko Neko' />
+        <br />
+        <i>Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻</i>
       </footer>
     </div>
   );
