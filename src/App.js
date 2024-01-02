@@ -5,9 +5,11 @@ import Axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// UI & LOGOS
+// Others
 import KawaiiNekoFactBtn from './assets/pictures/kawaii_nekofact_btn.png';
 import NekoLogo from './assets/pictures/logo.png';
+import TingAudio from './assets/sounds/ting.mp3';
+import NyaAudio from './assets/sounds/nya_nya.mp3';
 
 
 function App() {
@@ -26,14 +28,26 @@ function App() {
     set_10(_10 + 1);
 
     if (_10 > 0 && (_10 % 10) === 0) {
+      ting();
       toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 1500, });
     }
-    else if (_10 === 49) {
+    else if (_10 === 29) {
+      nya_nya();
       toast.info("You're a Neko Geek now!! 😻", { autoClose: 1000, });
     }
     else if (_10 === 0) {
+        ting();
       toast.info("1st Neko Fact! 😺", { autoClose: 1000, });
     }
+  }
+
+  const ting = () => {
+    const tingAudio = new Audio(TingAudio);
+    tingAudio.play();
+  }
+  const nya_nya = ()=>{
+    const nyaAudio = new Audio(NyaAudio);
+    nyaAudio.play();
   }
 
   return (
