@@ -1,9 +1,10 @@
 // LIBS
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from 'react-loading';
 
 // Others
 import KawaiiNekoFactBtn from './assets/pictures/kawaii_nekofact_btn.png';
@@ -14,7 +15,18 @@ import NyaAudio from './assets/sounds/nya_nya.mp3';
 
 function App() {
   const [nekoFact, setNekoFact] = useState("");
+  const [loading, setLoading] = useState(true);
   const [_10, set_10] = useState(0);
+
+  //Loading
+  useEffect(() => {
+    const delayTime = 2000;
+    const delayLoading = setTimeout(() => {
+      setLoading(false);
+    }, delayTime);
+
+    return () => clearTimeout(delayLoading);
+  }, []);
 
   // NEKO-FACT FUNC
   const fetchNekoFact = () => {
@@ -61,29 +73,37 @@ function App() {
         newestOnTop={true}
         closeOnClick
       />
-
-      <div className="neko-fact-fullpage">
-        <div className='neko-fact-outputbox'>
-          <h1>{nekoFact}</h1>
-        </div>
-        <div>
-          <button onClick={fetchNekoFact} className='nekofact-btn'>
-            <img src={KawaiiNekoFactBtn} alt="Click Here!" id='neko-btn-img' />
-          </button>
-        </div>
-      </div>
-      <br /><br />
-      <footer>
-        It's a prototype so wait a bit cat lovers. The app is under development.
-        <br />
-        <b>© 2023-2024 Neko Senpai</b>
-        <br />
-        <img src={NekoLogo} alt='Neko Neko' />
-        <br />
-        <i>
-          Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
-        </i>
-      </footer>
+      {loading ? ( // Loading...
+        <center>
+          <img src={NekoLogo} alt='Neko Neko' className='loading-pic' />
+          <Loading type="bars" color="rgb(255, 65, 65)" />
+        </center>
+      ) : (
+        <>
+          <div className="neko-fact-fullpage">
+            <div className='neko-fact-outputbox'>
+              <h1>{nekoFact}</h1>
+            </div>
+            <div>
+              <button onClick={fetchNekoFact} className='nekofact-btn'>
+                <img src={KawaiiNekoFactBtn} alt="Click Here!" id='neko-btn-img' />
+              </button>
+            </div>
+          </div>
+          <br /><br />
+          <footer>
+            It's a prototype so wait a bit cat lovers. The app is under development.
+            <br />
+            <b>© 2023-2024 Neko Senpai</b>
+            <br />
+            <img src={NekoLogo} alt='Neko Neko' />
+            <br />
+            <i>
+              Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
+            </i>
+          </footer>
+        </>
+      )}
     </div>
   );
 }

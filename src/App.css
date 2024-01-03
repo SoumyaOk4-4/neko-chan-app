@@ -68,3 +68,9 @@ footer {
     background: #ca2b2b;
 }
 /* scrollbar */
+
+.loading-pic{
+    color: rgb(255, 127, 127);
+    margin-bottom: 10px;
+    margin-top: 50%;
+}
