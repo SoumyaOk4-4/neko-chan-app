@@ -6,4 +6,4 @@
 - [x] **fix ui** overlapping.
 - [x] ***feedback*** hub.
 - [x] **scrollbar** ui.
-- [] **Loading** screen.
+- [x] **Loading** screen.
