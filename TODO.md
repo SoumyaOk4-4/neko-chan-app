@@ -7,3 +7,5 @@
 - [x] ***feedback*** hub.
 - [x] **scrollbar** ui.
 - [x] **Loading** screen.
+- [] **Nekonet** heading.
+- [] **Bottom menu** route.
