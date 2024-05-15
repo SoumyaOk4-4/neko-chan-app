@@ -6,6 +6,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from 'react-loading';
 
+// Components
+import Navbar from './components/navbar';
+
 // Others
 import KawaiiNekoFactBtn from './assets/pictures/kawaii_nekofact_btn.png';
 import NekoLogo from './assets/pictures/logo.png';
@@ -40,6 +43,7 @@ function App() {
       });
   };
 
+// congrats funcs
   const congrats_10 = () => {
     set_10(_10 + 1);
 
@@ -66,7 +70,7 @@ function App() {
     nyaAudio.play();
   }
 
-
+// did you knows
   const dyk = "Did you know:";
   const DYK_arr = [
     dyk + " Neko means cat in japanese!",
@@ -75,7 +79,8 @@ function App() {
     dyk + " You get a special notification sound after 30th Neko fact!",
     dyk + " If you reload you'll lost progress of Fact Reading!  :'-(",
     dyk + " The 4 second loading screen is to help you to read 'Did you knows'!",
-    dyk + " I made this because I was in love with someone who likes cats.",
+    dyk + " I made this app because I was in love with someone who likes cats! :'-(",
+    dyk + " Clicking on the logo down in NekoNet you can hear a cat meowing!",
   ];
   function getRandom_DYK(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
@@ -101,7 +106,7 @@ function App() {
       ) : (
         <>
           <div className="neko-heading">
-            NekoNet
+            NekoNet 
           </div>
           <div className="neko-fact-fullpage">
             <div className='neko-fact-outputbox'>
@@ -119,12 +124,13 @@ function App() {
             <br />
             <b>© 2023-2024 Neko Senpai</b>
             <br />
-            <img src={NekoLogo} alt='Neko Neko' />
+            <button onClick={nya_nya} id='nya_nya'><img src={NekoLogo} alt='Neko Neko' /></button>
             <br />
             <i>
               Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
             </i>
           </footer>
+          <Navbar />
         </>
       )}
     </div>

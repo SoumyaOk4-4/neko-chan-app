@@ -55,6 +55,7 @@ footer {
     bottom: 10px;
     width: 95%;
     text-align: center;
+    padding-bottom: 75px;
 }
 
 /* scrollbar */
@@ -80,14 +81,14 @@ footer {
 .loading-pic{
     color: rgb(255, 127, 127);
     margin-bottom: 10px;
-    margin-top: 50%;
+    margin-top: 25%;
 }
 
 .neko-heading{
     color:white;
     font-family: 'Jeju Hallasan';
-    font-size: 40px;
-    padding: 5%;
+    font-size: 30px;
+    padding: 2%;
     text-align: center;
     margin-bottom: 0.6%;
     /*box-shadow: 4px 6px 6px rgb(211, 93, 93);*/
@@ -98,4 +99,32 @@ footer {
 .did-you-know{
     color: rgb(150, 150, 150);
     font-family: 'Jeju Hallasan';
+}
+
+.navbar{
+    position: fixed;
+    right: 1%;
+    bottom: 0;
+    width: 14%;
+    background-color: #CB5252;
+    padding: 2%;
+    border-radius: 10px;
+}
+.addcontent{
+    padding-bottom: 5%;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #fff;
+    margin: 7%; 
+    height: auto;
+    width: auto;
+    padding: 2%;
+}
+#nya_nya{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
 }
