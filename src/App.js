@@ -115,7 +115,7 @@ function App() {
           </div>
           <br /><br />
           <footer>
-            It's a prototype so wait a bit cat lovers. The app is under development.
+            The app is under development.
             <br />
             <b>© 2023-2024 Neko Senpai</b>
             <br />
