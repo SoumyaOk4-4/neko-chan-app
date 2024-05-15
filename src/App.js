@@ -20,7 +20,7 @@ function App() {
 
   //Loading
   useEffect(() => {
-    const delayTime = 2000;
+    const delayTime = 4000;
     const delayLoading = setTimeout(() => {
       setLoading(false);
     }, delayTime);
@@ -66,6 +66,21 @@ function App() {
     nyaAudio.play();
   }
 
+
+  const dyk = "Did you know:";
+  const DYK_arr = [
+    dyk + " Neko means cat in japanese!",
+    dyk + " You get a notification after 1st Neko fact!",
+    dyk + " You get a notification after 10th Neko fact!",
+    dyk + " You get a special notification sound after 20th Neko fact!",
+  ];
+  function getRandom_DYK(array) {
+    const randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+  }
+
+
+
   return (
     <div className="App">
       <ToastContainer
@@ -77,11 +92,13 @@ function App() {
         <center>
           <img src={NekoLogo} alt='Neko Neko' className='loading-pic' />
           <Loading type="bars" color="rgb(255, 65, 65)" />
+          <br /><br /><br />
+          <h4 className='did-you-know'>{getRandom_DYK(DYK_arr)}</h4>
         </center>
       ) : (
         <>
           <div className="neko-heading">
-            NEKO NET
+            NekoNet
           </div>
           <div className="neko-fact-fullpage">
             <div className='neko-fact-outputbox'>
