@@ -13,7 +13,7 @@ const Navbar = () => {
             </li>
             <li className='addcontent'>
                 <a href="https://neko-chan-senpai.netlify.app/" className="nav-item">
-                    <img src={AddContent} alt="Post" />
+                    <img src={AddContent} alt="Add Post" />
                 </a>
             </li>
             <li>
