@@ -45,7 +45,7 @@ function App() {
 
     if (_10 > 0 && (_10 % 10) === 0) {
       ting();
-      toast.success(`You've read ${_10} Neko(Cat)Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 3300, });
+      toast.success(`You've read ${_10} Neko Facts. This is Fact no. ${_10 + 1}!`, { autoClose: 3300, });
     }
     else if (_10 === 29) {
       nya_nya();
@@ -71,8 +71,11 @@ function App() {
   const DYK_arr = [
     dyk + " Neko means cat in japanese!",
     dyk + " You get a notification after 1st Neko fact!",
-    dyk + " You get a notification after 10th Neko fact!",
-    dyk + " You get a special notification sound after 20th Neko fact!",
+    dyk + " You get a notification after every 10th Neko fact!",
+    dyk + " You get a special notification sound after 30th Neko fact!",
+    dyk + " If you reload you'll lost progress of Fact Reading!  :'-(",
+    dyk + " The 4 second loading screen is to help you to read 'Did you knows'!",
+    dyk + " I made this because I was in love with someone who likes cats.",
   ];
   function getRandom_DYK(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
