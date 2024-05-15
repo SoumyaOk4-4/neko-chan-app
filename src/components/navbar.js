@@ -17,7 +17,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="https://neko-chan-senpai.netlify.app/" className="nav-item">
+                <a href="https://neko-chan-senpai.cyclic.app/profile" className="nav-item">
                     <img src={ProfileIcon} alt="Profile" />
                 </a>
             </li>
