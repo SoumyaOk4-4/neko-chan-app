@@ -74,3 +74,11 @@ footer {
     margin-bottom: 10px;
     margin-top: 50%;
 }
+
+.neko-heading{
+    color:blue;
+    font-family: sans-serif;
+    padding: 6%;
+    text-align: center;
+    
+}

@@ -80,6 +80,9 @@ function App() {
         </center>
       ) : (
         <>
+          <div className="neko-heading">
+            NEKO NET
+          </div>
           <div className="neko-fact-fullpage">
             <div className='neko-fact-outputbox'>
               <h1>{nekoFact}</h1>
