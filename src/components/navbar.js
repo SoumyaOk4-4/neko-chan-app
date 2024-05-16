@@ -7,17 +7,17 @@ const Navbar = () => {
     return (
         <ul className="navbar" type='none'>
             <li>
-                <a href="https://neko-chan-senpai.netlify.app/" className="nav-item">
+                <a href="http://localhost:5000/" className="nav-item">
                     <img src={HomeIcon} alt="Home" />
                 </a>
             </li>
             <li className='addcontent'>
-                <a href="https://neko-chan-senpai.netlify.app/" className="nav-item">
+                <a href="http://localhost:5000" className="nav-item">
                     <img src={AddContent} alt="Add Post" />
                 </a>
             </li>
             <li>
-                <a href="https://neko-chan-senpai.cyclic.app/profile" className="nav-item">
+                <a href="http://localhost:5000/profile" className="nav-item">
                     <img src={ProfileIcon} alt="Profile" />
                 </a>
             </li>
