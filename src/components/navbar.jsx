@@ -6,12 +6,12 @@ const Navbar = () => {
     return (
         <ul className="navbar" type='none'>
             <li>
-                <a href="http://localhost:5000/" className="nav-item home-up">
+                <a href="https://neko-chan-backend-production.up.railway.app/" className="nav-item home-up">
                     <img src={HomeIcon} alt="Home" />
                 </a>
             </li>
             <li>
-                <a href="http://localhost:5000/profile" className="nav-item">
+                <a href="https://neko-chan-backend-production.up.railway.app/profile" className="nav-item">
                     <img src={ProfileIcon} alt="Profile" />
                 </a>
             </li>
