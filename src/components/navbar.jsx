@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <ul className="navbar" type='none'>
             <li>
-                <a href="http://localhost:5000/" className="nav-item">
+                <a href="http://localhost:5000/" className="nav-item home-up">
                     <img src={HomeIcon} alt="Home" />
                 </a>
             </li>
