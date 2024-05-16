@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeIcon from '../assets/pictures/icons/HomeIcon.png';
 import ProfileIcon from '../assets/pictures/icons/ProfileIcon.png';
-
+import AddContent from '../assets/pictures/icons/AddContent.png';
 
 const Navbar = () => {
     return (
