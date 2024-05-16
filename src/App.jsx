@@ -43,7 +43,7 @@ function App() {
       });
   };
 
-// congrats funcs
+  // congrats funcs
   const congrats_10 = () => {
     set_10(_10 + 1);
 
@@ -70,7 +70,7 @@ function App() {
     nyaAudio.play();
   }
 
-// did you knows
+  // did you knows
   const dyk = "Did you know:";
   const DYK_arr = [
     dyk + " Neko means cat in japanese!",
@@ -107,7 +107,7 @@ function App() {
       ) : (
         <>
           <div className="neko-heading">
-            NekoNet 
+            NekoNet
           </div>
           <div className="neko-fact-fullpage">
             <div className='neko-fact-outputbox'>

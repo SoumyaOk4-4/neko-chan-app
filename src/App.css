@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Jeju Hallasan';
     src: url('./assets/fonts/JejuHallasan-Regular.ttf') format('truetype');
-    font-weight: bold; 
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -76,14 +76,14 @@ footer {
     background: #ca2b2b;
 }
 
-.loading-pic{
+.loading-pic {
     color: rgb(255, 127, 127);
     margin-bottom: 10px;
     margin-top: 25%;
 }
 
-.neko-heading{
-    color:white;
+.neko-heading {
+    color: white;
     font-family: 'Jeju Hallasan';
     font-size: 30px;
     padding: 2%;
@@ -94,12 +94,12 @@ footer {
     background-color: #F28787;
 }
 
-.did-you-know{
+.did-you-know {
     color: rgb(150, 150, 150);
     font-family: 'Jeju Hallasan';
 }
 
-.navbar{
+.navbar {
     position: fixed;
     right: 1%;
     bottom: 0;
@@ -112,13 +112,13 @@ footer {
 .nav-item {
     text-decoration: none;
     color: #fff;
-    margin: 7%; 
+    margin: 7%;
     height: auto;
     width: auto;
     padding: 2%;
 }
 
-#nya_nya{
+#nya_nya {
     border: none;
     background-color: transparent;
     padding: 0;
