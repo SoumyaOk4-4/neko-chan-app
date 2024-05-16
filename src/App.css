@@ -58,9 +58,8 @@ footer {
     padding-bottom: 75px;
 }
 
-/* scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -76,7 +75,6 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #ca2b2b;
 }
-/* scrollbar */
 
 .loading-pic{
     color: rgb(255, 127, 127);
