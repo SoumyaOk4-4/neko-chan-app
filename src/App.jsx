@@ -81,6 +81,7 @@ function App() {
     dyk + " The 4 second loading screen is to help you to read 'Did you knows'!",
     dyk + " I made this app because I was in love with someone who likes cats! :'-(",
     dyk + " Clicking on the logo down in NekoNet you can hear a cat meowing!",
+    dyk + " Reading Neko Fact is better than doomscrolling!",
   ];
   function getRandom_DYK(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
