@@ -7,5 +7,7 @@
 - [x] ***feedback*** hub.
 - [x] **scrollbar** ui.
 - [x] **Loading** screen.
-- [] **Nekonet** heading.
-- [] **Bottom menu** route.
+- [x] **Nekonet** heading.
+- [x] **Bottom menu** route.
+- [x] **http://localhost:3000/ => netlify**
+- [x] **http://localhost:5000/ => railway**
