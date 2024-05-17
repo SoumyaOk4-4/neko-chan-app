@@ -124,3 +124,7 @@ footer {
     padding: 0;
     margin: 0;
 }
+
+#help-btn{
+    text-align: right;
+}
