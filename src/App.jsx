@@ -120,6 +120,9 @@ function App() {
             </div>
           </div>
           <br /><br />
+          {/* help btn */}
+          <a id="help-btn" href="https://youtu.be/dvJCdNwA7sI"><img src="https://i.ibb.co/JC10czB/Vector.png" alt="Help" /></a>
+          <br />
           <footer>
             The app is under development.
             <br />
