@@ -84,6 +84,7 @@ function App() {
     dyk + " Reading Neko Fact is better than doomscrolling! 🤳🏻",
     dyk + " Clicking on the logo up in the Profile page will take you to NekoNet page! 😺",
     dyk + " Don't post anything bad here or Neko-Chan will be angry! 😾",
+    dyk + " After Logout `server error` page will appear just cross it! 🌋",
   ];
   function getRandom_DYK(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
