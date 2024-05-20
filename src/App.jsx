@@ -71,17 +71,19 @@ function App() {
   }
 
   // did you knows
-  const dyk = "Did you know:";
+  const dyk = "Did You Know:";
   const DYK_arr = [
-    dyk + " Neko means cat in japanese!",
-    dyk + " You get a notification after 1st Neko fact!",
-    dyk + " You get a notification after every 10th Neko fact!",
-    dyk + " You get a special notification sound after 30th Neko fact!",
-    dyk + " If you reload you'll lost progress of Fact Reading!  :'-(",
-    dyk + " The 4 second loading screen is to help you to read 'Did you knows'!",
-    dyk + " I made this app because I was in love with someone who likes cats! :'-(",
-    dyk + " Clicking on the logo down in NekoNet you can hear a cat meowing!",
-    dyk + " Reading Neko Fact is better than doomscrolling!",
+    dyk + " Neko means Cat in japanese! 🐈",
+    dyk + " You get a notification after 1st Neko fact! 🔔",
+    dyk + " You get a notification after every 10th Neko fact! 🔔",
+    dyk + " You get a special notification sound after 29th Neko fact! 🔔",
+    dyk + " If you reload you'll lost progress of NekoFact Reading!  🤯",
+    dyk + " The 4 second loading screen is to help you to read 'Did you knows'! 🤯",
+    dyk + " I made this app because I was in love with someone who likes cats! 💔",
+    dyk + " Clicking on the logo down in NekoNet you can hear a cat meowing! 🙉",
+    dyk + " Reading Neko Fact is better than doomscrolling! 🤳🏻",
+    dyk + " Clicking on the logo up in the Profile page will take you to NekoNet page! 😺",
+    dyk + " Don't post anything bad here or Neko-Chan will be angry! 😾",
   ];
   function getRandom_DYK(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
