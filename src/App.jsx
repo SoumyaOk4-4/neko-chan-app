@@ -132,10 +132,9 @@ function App() {
             <i>
               Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
             </i>
-The app is under development.
             <br />
             <b>© 2023-2024 Neko Senpai</b>
-<br>
+            <br />
           </footer>
           <Navbar />
         </>
