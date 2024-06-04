@@ -127,15 +127,15 @@ function App() {
           <a id="help-btn" href="https://youtu.be/dvJCdNwA7sI"><img src="https://i.ibb.co/JC10czB/Vector.png" alt="Help" /></a>
           <br />
           <footer>
-            The app is under development.
-            <br />
-            <b>© 2023-2024 Neko Senpai</b>
-            <br />
             <button onClick={nya_nya} id='nya_nya'><img src={NekoLogo} alt='Neko Neko' /></button>
             <br />
             <i>
               Give me a <a href="https://forms.gle/erAJtRTKzQNiLAS5A" target="_blank" rel="noopener noreferrer"><b>Feedback</b></a> 👻
             </i>
+The app is under development.
+            <br />
+            <b>© 2023-2024 Neko Senpai</b>
+<br>
           </footer>
           <Navbar />
         </>
