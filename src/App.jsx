@@ -79,7 +79,6 @@ function App() {
     dyk + " You get a special notification sound after 29th Neko fact! 🔔",
     dyk + " If you reload you'll lost progress of NekoFact Reading!  🤯",
     dyk + " The 4 second loading screen is to help you to read 'Did you knows'! 🤯",
-    dyk + " I made this app because I was in love with someone who likes cats! 💔",
     dyk + " Clicking on the logo down in NekoNet you can hear a cat meowing! 🙉",
     dyk + " Reading Neko Fact is better than doomscrolling! 🤳🏻",
     dyk + " Clicking on the logo up in the Profile page will take you to NekoNet page! 😺",
