@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <ul className="navbar" type='none'>
             <li> {/* may change in future */}
-                <a href="https://neko-chan-backend-production.up.railway.app/profile" className="nav-item">
+                <a href="https://neko-chan-backend.onrender.com/profile" className="nav-item">
                     <img src={ProfileIcon} alt="Profile" />
                 </a>
             </li>
